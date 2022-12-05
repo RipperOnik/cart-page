@@ -1,0 +1,172 @@
+.popup-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  z-index: 5 !important;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  width: 500px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  z-index: 5 !important;
+}
+.popup__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px 13px;
+  width: 100%;
+}
+
+.close-button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+/* tabs */
+.bubble-tabs {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+.bubble-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  height: 36px;
+  border: 2px solid rgba(203, 17, 171, 0.15);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.bubble-tab:hover {
+  border: 2px solid #cb11ab;
+}
+.bubble-tab--active {
+  border: 2px solid #cb11ab;
+}
+/* tabs */
+.popup__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 0px 24px 33px;
+  gap: 8px;
+}
+.popup__content__item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  justify-content: space-between;
+}
+.checkbox-container--baseline {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+}
+.popup-content-item-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+.popup__content__item__footer {
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #a0a0a4;
+}
+
+.close-button:hover {
+  background-color: darkgray;
+}
+
+input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #cb11ab;
+}
+
+/* button-ok */
+.button-ok {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 24px;
+  align-items: center;
+  padding: 0px 48px;
+
+  width: 164px;
+  height: 44px;
+
+  background: #cb11ab;
+
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  cursor: pointer;
+  border: none;
+
+  color: #ffffff;
+}
+
+/* This will blur the screen and make the popup visible  */
+.show-popup {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.form__card-img {
+  vertical-align: middle;
+}
+.checkbox-content {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-content--row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}

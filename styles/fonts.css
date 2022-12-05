@@ -1,0 +1,93 @@
+.font-12 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.font-12--orange {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f55123;
+}
+
+.font-13 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.font-13--grey {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #a0a0a4;
+}
+.font-13--grey--line-through {
+  color: #a0a0a4;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: line-through;
+}
+.font-13--white {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: white;
+}
+.font-13--orange {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #f55123;
+}
+.font-13--green {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #0cb477;
+}
+
+.font-13--bold {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.font-16 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-16--bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.font-16--grey {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #a0a0a4;
+}
+.font-16--orange {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f55123;
+}
+
+.font-20--bold {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-24--bold {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
